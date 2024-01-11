@@ -31,9 +31,9 @@ const Banner = () => {
         <Container>
           <Box sx={styles.contentWrapper}>
             <Box sx={styles.bannerContent}>
-              <Heading as="h1">decentralised music streaming 🎧</Heading>
+              <Heading as="h1">Decentralised Music Streaming 🎧</Heading>
               <Text as="p">
-                upload your tracks, turn them into fractional NFTs and the fans
+                Upload your tracks, turn them into fractional NFTs and the fans
                 can have a piece of the track for their own.
               </Text>
               {/* <SubscriptionForm sx={styles.subscriptionForm} /> */}

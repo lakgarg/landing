@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Box, Container, Flex, Button } from 'theme-ui';
+import { jsx, Box, Container, Flex, Button, Heading } from 'theme-ui';
 import Sticky from 'react-stickynode';
 import { useState } from 'react';
 import { DrawerProvider } from 'contexts/drawer/drawer-provider';
@@ -40,6 +40,7 @@ export default function Header() {
             <Container>
               <Box sx={styles.headerInner}>
                 <Logo sx={styles.logo} isSticky={state.isSticky} />
+                <Heading>Shady Labs</Heading>
                 <Flex
                   as="nav"
                   sx={styles.navbar}
@@ -112,7 +113,7 @@ const styles = {
     // position: ['relative', null, null, 'static'],
   },
   logo: {
-    mr: [null, null, null, null, 30, 12],
+    mr: [null, null, null, null, 30, 2],
   },
   navbar: {
     display: ['none', null, null, null, 'flex'],
@@ -130,6 +131,7 @@ const styles = {
   },
   navList: {
     display: ['flex'],
+    justifyContent: 'center',
     listStyle: 'none',
     flexGrow: 1,
     p: 0,
@@ -144,7 +146,8 @@ const styles = {
     },
   },
   getStarted: {
-    backgroundColor: '#e5b8f4',
+    backgroundColor: 'transparent',
+    border: "2px solid white",
     color: 'white',
     p: ['0 16px'],
     minHeight: 45,

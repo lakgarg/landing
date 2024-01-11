@@ -21,13 +21,13 @@ export default function IndexPage() {
           description="decentralised music streaming"
         />
         <Banner />
-        {/* <Support />
         <PremiumFeature />
+        {/* <Support />
         <AppFeature />
         <Dashboard />
         <Pricing />
         <Testimonials /> */}
-        <Subscribe />
+        {/* <Subscribe /> */}
       </Layout>
     </ThemeProvider>
   );

@@ -17,8 +17,8 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="shady labs"
-          description="decentralised music streaming"
+          title="Shady Labs"
+          description="Decentralised Music Streaming"
         />
         <Banner />
         <PremiumFeature />
